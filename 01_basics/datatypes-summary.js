@@ -134,3 +134,85 @@ implement
 )
 
 */
+
+
+
+
+
+
+
+
+
+
+
+/***************************    Stack (Primitive) & Heap (Non-Primitive) Memory in depth    **************************************/
+
+
+/*
+
+
+let myYoutubename = "PIAICHelpDesk"
+
+
+let anothername = myYoutubename;
+
+
+anothername = "GIAICHelpDesk"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+console.log(anothername);
+
+
+
+let teacherOne ={
+    name : "Hamza Syed",
+    batch : 42
+}
+
+
+let teacherTwo =teacherOne;
+
+teacherTwo.name = "Qasim";
+
+console.log(teacherOne.name);
+console.log(teacherTwo.name);
+
+*/
+
+
+
+
+
+
+
+
+/* another example of Stack & Heap Memory */
+
+
+
+
+let myYoutubechannel = "PIAIC"
+
+let anotherName = myYoutubechannel
+
+anotherName = "PIAICHelpDesk"
+console.log(myYoutubechannel);
+console.log(anotherName);
+
+
+
+
+let userOne = {
+    email : "user@google.com",
+    userId : 73919
+}
+
+console.log(userOne.email);
+
+let userTwo = userOne
+userTwo.email = "asif@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
